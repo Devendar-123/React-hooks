@@ -1,0 +1,46 @@
+/* Table wrapper for clean layout */
+table.fetchTable {
+  width: 100%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Caption at top with distinct color and styling */
+caption {
+  caption-side: top;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+/* Header styling */
+thead.fetchHeading {
+  background-color: #1e40af;
+  color: white;
+}
+
+/* Cells spacing and borders */
+th,
+td {
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+}
+
+/* Zebra striping for readability */
+tbody.fetchBody tr:nth-child(odd) {
+  background-color: #f0f4ff;
+}
+
+tbody.fetchBody tr:nth-child(even) {
+  background-color: #e2e8f0;
+}
+
+/* Row hover effect */
+tbody.fetchBody tr:hover {
+  background-color: #c7d2fe;
+  cursor: pointer;
+}
